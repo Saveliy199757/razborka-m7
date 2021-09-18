@@ -477,6 +477,11 @@ button.based {
 .slider-product {
     position: relative;
 }
+.slider-product .product-card {
+    grid-template-rows: 45% 55%;
+    margin-right: 32px;
+    margin-bottom: 10px;
+}
 .product-card {
     background: #FFFFFF;
     border: 1px solid #DCDCDC;
@@ -484,9 +489,6 @@ button.based {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     display: grid;
-    grid-template-rows: 45% 55%;
-    margin-right: 32px;
-    margin-bottom: 10px;
 }
 .product-card .img img {
     border-top-left-radius: 5px;
@@ -654,4 +656,162 @@ ul.footer-menu {
     grid-template-columns: 1fr 1fr;
     gap: 160px;
 }
-
+.hleb-navigation {
+    margin-top: 40px;
+}
+.hleb-navigation a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.hleb-navigation img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.hleb-navigation li {
+    display: flex;
+    align-items: center;
+}
+.section-title {
+    margin-top: 32px;
+}
+.section-title h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.section-catalog-menu {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    padding: 8px 0px;
+}
+.section-catalog-block {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 22% 78%;
+    margin-bottom: 80px;
+}
+.section-catalog-menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.section-catalog-menu ul li {
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.multi-accordion > li > ul {
+    display: none;
+}
+.multi-accordion .lavel-1 > a {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D2626;
+    padding: 16px 10px 16px 40px;
+    display: block;
+    text-decoration: none;
+}
+.multi-accordion .lavel-1 > a:hover {
+    background: #F5EDED;
+}
+.multi-accordion .lavel-1 > a.active {
+    background: #F5EDED;
+}
+.multi-accordion .lavel2 > a {
+    font-size: 12px;
+    line-height: 32px;
+    color: #2D2626;
+    padding: 12px 40px 12px 40px;
+}
+.multi-accordion .lavel2 > a:hover {
+    font-weight: bold;
+}
+.multi-accordion .lavel2 > a.active {
+    font-weight: bold;
+}
+.multi-accordion .lavel-1.active > ul {
+    display: block;
+}
+.section-catalog-right {
+    padding-left: 32px;
+}
+.catalog-sort-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.catalog-sort-item {
+    margin-right: 36px;
+}
+.catalog-sort-item span {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.catalog-sort-item label {
+    display: flex;
+    align-items: center;
+}
+.catalog-sort-item label span {
+    margin-right: 4px;
+}
+.catalog-sort-item select {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    border: none;
+    outline: none;
+}
+.section-catalog-items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+.catalog-section-pagination {
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.catalog-section-pagination ul a {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+.catalog-section-pagination ul li.current a {
+    border: 1px solid #CFC1C1;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.catalog-section-pagination ul {
+    display: flex;
+    justify-content: center;
+}
+.catalog-section-text {
+    margin-top: 40px;
+}
+.catalog-section-text h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.catalog-section-text p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
